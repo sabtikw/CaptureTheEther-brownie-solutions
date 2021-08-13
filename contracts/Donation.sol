@@ -1,6 +1,5 @@
 /*
 
-
 in the donate function, the Donation struct declaration defaulta to storage slot 0 and the etherAmount will write to 
 slot 1 which is the owner.
 
@@ -15,6 +14,7 @@ don.donate(ethAmount,{'from':a[0],'value' : ethAmount/1e36})
 10e36 is used since the scale is 10 ** 18 * 1 ether = 1e36
 
 */
+
 pragma solidity 0.8.6;
 
 interface DonationChallenge {
